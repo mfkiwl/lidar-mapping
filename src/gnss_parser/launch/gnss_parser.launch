@@ -1,0 +1,6 @@
+<launch>
+    <node name="gnss_parser_node" pkg="gnss_parser" type="gnss_parser_node" output="screen">
+        <param name="port" value="/dev/ttyS0" />
+        <param name="baudrate" value="115200" />
+    </node>
+</launch>
